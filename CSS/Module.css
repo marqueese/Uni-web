@@ -21,6 +21,7 @@ body{
     line-height: 70px;
     margin: 10px;
     box-shadow: #000000 4px 2px 8px;
+    transition: background-image 2s ease; /* Added transition */
 }
 
 .Boxes > .box_image{
@@ -86,7 +87,7 @@ body{
     width: 102vw;
     height: 70vh;
     margin-top: 5vh;
-    background-image: url("./Images/placeholder.png");
+    background-image: url(../Images/placeholder.png);
     background-size: 100% 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -115,7 +116,7 @@ body{
 }
 
 .I_Got_bored:hover {
-    background-image: url(./yep.jpg);
+    background-image: url(../Images/yep.jpg);
     transition: background-image 2s ease; /* Added transition */
 
 }
